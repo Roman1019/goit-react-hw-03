@@ -1,0 +1,72 @@
+.contactUl {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactItem {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 330px;
+  height: auto;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactHeadDiv {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.contactHeadIconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.contactHead {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 33px;
+}
+.contactHeadIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactParDiv {
+  display: flex;
+}
+
+.contactPar {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.contactButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.contactButton:hover {
+  background-color: blue;
+}
