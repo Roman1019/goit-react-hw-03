@@ -4,7 +4,7 @@ import css from "./Contact.module.css";
 
 export default function ContactList({ contacts, onDelete }) {
   return (
-    <div className="container">
+    <div className={css.contactForm}>
       <ul className={css.contactUl}>
         {contacts.map((contact) => (
           <li className={css.contactItem} key={contact.id}>
