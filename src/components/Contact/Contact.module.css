@@ -1,23 +1,6 @@
 .contactForm {
   padding: 16px 0;
 }
-.contactUl {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-.contactItem {
-  border: 1px solid black;
-  border-radius: 4px;
-  width: 330px;
-  height: auto;
-  padding: 8px;
-  display: flex;
-  justify-content: space-between;
-}
 
 .contactHeadDiv {
   display: flex;
